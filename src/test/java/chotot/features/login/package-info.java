@@ -1,6 +1,6 @@
 
 @Narrative(
-        title = "Login Chotot",
+        title = "FillLoginForm Chotot",
         text = {"As a user",
                 "I want to login"}
 )

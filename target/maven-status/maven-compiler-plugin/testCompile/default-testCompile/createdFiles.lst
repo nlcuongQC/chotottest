@@ -1,7 +1,10 @@
 chotot\questions\AccountName.class
 chotot\tasks\OpenPage.class
 chotot\ui\LoginForm.class
-chotot\tasks\Login.class
-chotot\features\login\LoginStory.class
+chotot\questions\LoginError.class
+chotot\tasks\Navigate.class
+chotot\questions\LoginSubmitBtn.class
+chotot\tasks\FillLoginForm.class
+chotot\features\login\FillLoginFormStory.class
 chotot\ui\NavBar.class
 chotot\features\login\package-info.class

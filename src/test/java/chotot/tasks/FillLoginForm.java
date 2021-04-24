@@ -8,12 +8,12 @@ import net.serenitybdd.screenplay.actions.Enter;
 
 import static chotot.ui.LoginForm.LOGIN_SUBMIT_BTN;
 
-public class Login {
+public class FillLoginForm {
 
     public static Performable with(String phoneNumber, String password) {
         return Task.where("{0} login with phone and password",
                           Enter.theValue(phoneNumber).into(LoginForm.PHONE_TXTBX),
-                          Enter.theValue(password).into(LoginForm.PASSWORD_TXTBX),
-                          Click.on(LOGIN_SUBMIT_BTN));
+                          Enter.theValue(password).into(LoginForm.PASSWORD_TXTBX)
+                         );
     }
 }
