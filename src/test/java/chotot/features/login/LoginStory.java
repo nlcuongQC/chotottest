@@ -21,7 +21,7 @@ import static net.serenitybdd.screenplay.GivenWhenThen.*;
 import static org.hamcrest.Matchers.*;
 
 @RunWith(SerenityRunner.class)
-public class FillLoginFormStory {
+public class LoginStory {
 
     Actor anna = Actor.named("Anna");
 
